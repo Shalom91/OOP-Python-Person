@@ -13,6 +13,8 @@ class Person:
     
 # Instantiate person
 person = Person("Ryan", 30, "male", "being a hardarse, agile, and ssd hard drives.")
+greeting = person.hello()
 
-#print(Person.hello(person))
-print(person)
+#print
+print(greeting)
+
