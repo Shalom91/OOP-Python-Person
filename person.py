@@ -7,7 +7,7 @@ class Person:
         self.gender = gender
         self.interests = interests
         
-    # create a hello function for class Person
+    # create a hello method for class Person
     def hello(self):
         return "Hello, my name is {} and I am {} years old. My interests are {}".format(self.name, self.age, self.interests)
     
